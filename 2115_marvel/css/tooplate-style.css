@@ -80,6 +80,20 @@ b, strong {
   font-weight: bold;
 }
 
+.container-about{
+  height: 100vh;
+  width: 80vh;
+  background-color: #ffc200;
+}
+
+.spacer {
+  flex-grow: 1; 
+}
+
+.custom-btn-group mt-4{
+  flex-direction: row;
+}
+
 .custom-btn {
   background: #eee;
   color: #5b5b5b;
