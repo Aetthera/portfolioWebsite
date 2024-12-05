@@ -584,16 +584,16 @@ b, strong {
 }
 
 .about_section{
-  display: flex;            /* Enables flexbox for alignment */
-  justify-content: center;     /* Horizontally centers the content */
-  align-items: center;         /* Vertically centers the content */
-  text-align: center;          /* Centers the text inside the div */
-  padding-top: 100px;          /* Adds 150px top padding */
-  margin: 0;              /* Centers the div on the page */
-  max-width: 1000px;            /* Optional: Sets a maximum width for the div */
-  font-size: 18px;             /* Adjusts font size for readability */
-  line-height: 1.6;            /* Improves readability */
-  color: #333;                 /* Sets a neutral text color */
+  display: flex;            
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;          
+  padding-top: 100px;          
+  margin: 0;              
+  max-width: 1000px;            
+  font-size: 18px;             
+  line-height: 1.6;            
+  color: #333;                 
 }
 .about_section .about_section_p{
   color: red;
@@ -603,7 +603,7 @@ b, strong {
 
 @media (max-width: 768px) {
   .about_section {
-    padding-top: 100px; /* Reduced padding for smaller screens */
-    font-size: 16px;    /* Slightly smaller text */
+    padding-top: 100px; 
+    font-size: 16px;    
   }
 }
