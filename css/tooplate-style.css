@@ -588,7 +588,7 @@ b, strong {
   justify-content: center;     /* Horizontally centers the content */
   align-items: center;         /* Vertically centers the content */
   text-align: center;          /* Centers the text inside the div */
-  padding-top: 150px;          /* Adds 150px top padding */
+  padding-top: 10px;          /* Adds 150px top padding */
   margin: 0 auto;              /* Centers the div on the page */
   max-width: 800px;            /* Optional: Sets a maximum width for the div */
   font-size: 18px;             /* Adjusts font size for readability */
