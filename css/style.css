@@ -1,0 +1,7 @@
+.about_section_p {
+    text-align: center; /* Centers the text inside the div */
+    margin: 150px auto 0 auto; /* Centers the div horizontally and adds top margin */
+    padding-top: 150px; /* Adds top padding */
+    font-size: 18px; /* Optional: Adjust font size if needed */
+    max-width: 600px; /* Optional: Limit width for better readability */
+}
