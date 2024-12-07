@@ -51,7 +51,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #5b5b5b;
+  color: darkgray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,11 +90,8 @@ b, strong {
   flex-grow: 1; 
 }
 
-.custom-btn-group mt-4{
-  flex-direction: row;
-}
 
-.custom-btn {
+.btn {
   background: #eee;
   color: #5b5b5b;
   font-weight: bold;
@@ -105,14 +102,17 @@ b, strong {
   overflow: hidden;
   transition: all 0.4s ease;
 }
-.custom-btn:hover {
+
+.btn:hover {
   color: #ffc200;
 }
-.custom-btn.custom-btn-bg {
+
+.btn.btn-border {
   background: #474559;
   color: #ffffff;
 }
-.custom-btn.custom-btn-bg:hover {
+
+.btn.btn-border:hover {
   background: #ffc200;
   color: #ffffff !important;
 }
@@ -304,7 +304,7 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: #333;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -313,7 +313,7 @@ b, strong {
   color: #ffc200;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
+  background: #333;
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
@@ -341,7 +341,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #474559;
+  background: darkgray;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -349,7 +349,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: darkgrey;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -372,7 +372,7 @@ b, strong {
   margin-left: 6em;
 }
 .timeline-info small {
-  color: #474559;
+  color: timeline-yr;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -585,20 +585,27 @@ b, strong {
 
 .about_section{
   display: flex;            
+  flex-direction: column;
   justify-content: center;     
   align-items: center;         
   text-align: center;          
-  padding-top: 100px;          
+  padding: 100px 0;         
   margin: 0;              
-  max-width: 1500px;            
-  font-size: 18px;             
-  line-height: 1.6;            
+  max-width: 1200px;          
+  width: 100%;              
+  line-height: 1.8;            
   color: #333;                 
 }
-.about_section .about_section_p{
-  padding-top: 0 !important;
-  margin: 75px 0 75px 0;
+
+.about_section .about_section_p {
+  margin: 20px auto;
+  padding-top: 50px !important;            /* Centers the paragraph */
+  font-size: 25px;              /* Adjusts font size for clarity */
+  width: 100%;                   /* Widens the paragraph */
+  max-width: 900px;             /* Restricts excessive width on large screens */
+  color: darkgray;              /* Keeps text in dark gray */
 }
+
 
 @media (max-width: 768px) {
   .about_section {
