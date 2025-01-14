@@ -1,0 +1,99 @@
+/* General Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333333; /* Dark grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for card-like appearance */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Heading Styles */
+  .main-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333; /* Dark grey */
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    color: #FFC857; /* Warm yellow */
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* Illustration Styles */
+  .illustration img {
+    width: 100px; /* Adjust size */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Text Message Styles */
+  .message {
+    font-size: 18px;
+    color: #666666; /* Medium grey */
+    margin-bottom: 30px;
+  }
+  
+  /* Button Container */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+  }
+  
+  /* Buttons */
+  .btn {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .btn-primary {
+    background-color: #FFC857; /* Warm yellow */
+    color: #ffffff; /* White text */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #E6B144; /* Slightly darker yellow */
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #FFC857;
+    border: 2px solid #FFC857; /* Yellow border */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #FFC857;
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999999; /* Light grey text */
+  }
